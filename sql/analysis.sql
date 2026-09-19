@@ -39,7 +39,7 @@ FROM uts_bookings
 GROUP BY Railway_Line
 ORDER BY bookings DESC;
 
--- 5. Booking Mode Adoption (Digital vs Counter)
+-- 5. Booking Mode Adoption (Paper vs Paperless)
 SELECT 
     Booking_Mode,
     Payment_Type,
